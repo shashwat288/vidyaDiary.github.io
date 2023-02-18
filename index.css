@@ -1,0 +1,19 @@
+.cont1{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: space-around;
+    flex-direction: row;
+    
+}
+.card{
+    margin: 10px ;
+    /* border: 0.5px solid black; */
+    
+}
+.card:hover{
+    transform: scale(1.05);
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+    
+}
